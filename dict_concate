@@ -1,0 +1,7 @@
+d1={"name":"aishu"}
+d2={"age":19}
+d3={"place":"chennai"}
+d4={}
+for d in (d1,d2,d3):
+    d4.update(d)
+print(d4)

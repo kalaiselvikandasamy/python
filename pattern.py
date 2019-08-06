@@ -3,6 +3,6 @@ def pattern(n)
     for j in range(0,i+1):
       print("*",end="")
     print("\r")
-n=5
+n=4
 pattern(n)
   
